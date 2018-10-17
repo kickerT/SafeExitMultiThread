@@ -1,0 +1,19 @@
+Fixed Bugs:
+--------------
+QThread: Destroyed while thread is still running
+Error - RtlWerpReportException failed with status code :-1073741823. Will try to launch the process directly
+
+
+Output:
+--------------
+AAA
+BBB
+AAA
+BBB
+timeout.
+~MainWidget()
+Safe exit AAA
+BBB
+~AAA()
+Safe exit BBB
+~BBB()
